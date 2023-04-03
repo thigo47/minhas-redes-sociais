@@ -21,6 +21,7 @@ iframe{
     position: absolute;
     background-image: url(midia/imagens/tela-home.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 .botoes > img{
     width: 50px;

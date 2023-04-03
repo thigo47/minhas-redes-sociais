@@ -9,6 +9,29 @@ let divs = {
     iframe:document.getElementById("iframe")
 }
 
+divs.home.addEventListener("click", function() {
+    divs.iframe.src = ""
+
+  });
+
 divs.face.addEventListener("click",function(){
-    divs.iframe.src = "../facebook/index.html"
+    divs.iframe.src = "../paginas/facebook/index.html"
 })
+
+divs.git.addEventListener("click", function(){
+    divs.iframe.src = "../paginas/github/index.html"
+})
+
+divs.insta.addEventListener("click" , function(){
+    divs.iframe.src = "../paginas/instagram/index.html"
+})
+
+divs.twit.addEventListener("click" , function(){
+    divs.iframe.src = "../paginas/twitter/index.html"    
+})
+
+divs.yout.addEventListener("click" , function () {
+    divs.iframe.src = "../paginas/youtube/index.html"
+})
+
+  
